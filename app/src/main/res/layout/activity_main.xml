@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#C8B4B4"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CALCULATE YOUR"
+        android:padding="5dp"
+        android:textColor="#9A2828"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textColor="#9A2828"
+        android:background="#FFC107"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="IN MINUTES"
+        android:textColor="#9A2828"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/tvDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE OF BIRTH"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#9A2828"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECTED DATE"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textColor="#9A2828"
+
+        />
+
+    <TextView
+        android:id="@+id/tvInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#9A2828"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE IN MINUTES"
+        android:textSize="20sp"
+
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textColor="#9A2828"
+
+        />
+</LinearLayout>
